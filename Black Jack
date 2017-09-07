@@ -1,0 +1,319 @@
+import random
+import time
+print("Hello and welcome to Black Jack.")
+time.sleep(2)
+print("If you are unfamiliar with the rules you can learn them right here.")
+time.sleep(3)
+start="starting"
+print("What would you like to do?")
+print("")
+  while start=="starting":
+  print("Play the game (Play)")
+  print("")
+  print("Learn the rules (Learn)")
+  playorlearn=input("")
+  pol=playorlearn.lower()
+
+  if pol=="play":
+    start="stopping"
+    print("You wish to play the game?")
+    game="working"
+    time.sleep(1.5)
+    print("Then pull up to a table here and prepare to begin")
+    
+  if pol=="learn":
+    print("Want to learn the game?  Alright then...")
+    time.sleep(2)
+    print("Black Jack is a game where to goal is to get 21 or the closest to 21 as you can.")
+    time.sleep(4)
+    print("At the beginning of the game you and everyone else will be given 2 cards as well as the dealer.")
+    time.sleep(5)
+    print("The dealer and only the dealer will show one of their 2 cards.")
+    time.sleep(2.5)
+    print("When you are given 2 cards you will add them up.  The Ace card can be worth either 1 or 11.")
+    time.sleep(5)
+    print("The Ace card will begin as 11 but if you recive more card that would equal your total sum to be higher than 11 the Ace card will be equal.")
+    time.sleep(6)
+    print("If you have a Ace and a Face Card you will win the game instantly.")
+    time.sleep(3)
+    print("However if you have and Ace and 10 or any other card you will wait for the round to end before you can win.")
+    time.sleep(5)
+    print("You can choose to Hit (recive another card) or Stay (have no more cards handed to you and end your turn.")
+    time.sleep(5)
+    print("Now, with this being said do you want to play?")
+    print("")
+    print("Play the game (Play)")
+    print("Leave the game (Leave)")
+    play=input("")
+    play?=play.lower()
+    
+    if play?=="play":
+      start="stopping"
+      print("Ready to play?  Well here we go!")
+      game="working"
+      time.sleep(2.5)
+      
+while game=="working":
+  print("Alright.  You are at a table with 3 other people and the dealer.")
+  time.sleep(3)
+  print("Prepare to play...")
+  time.sleep(1.5)
+            1cards=["Ace of Spades", "Ace of Clubs", "Ace of Hearts", "Ace of Diamonds", "2 of Spades", "2 of Clubs", "2 of Hearts","2 of Diamonds", "3 of Spades", "3 of Clubs", "3 of Hearts", "3 of Diamonds", "4 of Spades", "4 of Clubs", "4 of Hearts", "4 of Diamonds", "5 of Spades", "5 of Clubs", "5 of Hearts", "5 of Diamonds", "6 of Spades", "6 of Clubs", "6 of Hearts", "6 of Diamonds", "7 of Spades", "7 of Clubs", "7 of Hearts", "7 of Diamonds", "8 of Spades", "8 of Clubs", "8 of Hearts", "8 of Diamonds", "9 of Spades", "9 of Clubs", "9 of Hearts", "9 of Diamonds", "10 of Spades", "10 of Clubs", "10 of Hearts", "10 of Diamonds", "Jack of Spades", "Jack of Clubs", "Jack of Hearts", "Jack of Diamonds", "Queen of Spades", "Queen of Clubs", "Queen of Hearts", "Queen of Diamonds", "King of Spades", "King of Clubs", "King of Hearts", "King of Diamonds",]
+            AIchoice=random.randint(0,51)
+            card1=1cards[AIchoice]
+            2cards=["Ace of Spades", "Ace of Clubs", "Ace of Hearts", "Ace of Diamonds", "2 of Spades", "2 of Clubs", "2 of Hearts","2 of Diamonds", "3 of Spades", "3 of Clubs", "3 of Hearts", "3 of Diamonds", "4 of Spades", "4 of Clubs", "4 of Hearts", "4 of Diamonds", "5 of Spades", "5 of Clubs", "5 of Hearts", "5 of Diamonds", "6 of Spades", "6 of Clubs", "6 of Hearts", "6 of Diamonds", "7 of Spades", "7 of Clubs", "7 of Hearts", "7 of Diamonds", "8 of Spades", "8 of Clubs", "8 of Hearts", "8 of Diamonds", "9 of Spades", "9 of Clubs", "9 of Hearts", "9 of Diamonds", "10 of Spades", "10 of Clubs", "10 of Hearts", "10 of Diamonds", "Jack of Spades", "Jack of Clubs", "Jack of Hearts", "Jack of Diamonds", "Queen of Spades", "Queen of Clubs", "Queen of Hearts", "Queen of Diamonds", "King of Spades", "King of Clubs", "King of Hearts", "King of Diamonds",]
+            AIchoice=random.randint(0,51)
+            card2=2cards[AIchoice]
+            print("Your cards are the "+card1+" and the "+card2+".")
+            time.sleep(3)
+            print("What do you want to do?")
+            print("")
+            print("Hit")
+            print("Stay")
+            if card1=="Ace of Spades"
+            card1num=1
+            if card1=="Ace of Clubs"
+            card1num=1
+            if card1=="Ace of Hearts"
+            card1num=1
+            if card1=="Ace of Diamonds"
+            card1num=1
+            if card1=="2 of Spades"
+            card1num=2
+            if card1=="2 of Clubs"
+            card1num=2
+            if card1=="2 of Hearts"
+            card1num=2
+            if card1=="2 of Diamonds"
+            card1num=2
+            if card1=="3 of Spades"
+            card1num=3
+            if card1=="3 of Clubs"
+            card1num=3
+            if card1=="3 of Hearts"
+            card1num=3
+            if card1=="3 of Diamonds"
+            card1num=3
+            if card1=="4 of Spades"
+            card1num=4
+            if card1=="4 of Clubs"
+            card1num=4
+            if card1=="4 of Hearts"
+            card1num=4
+            if card1=="4 of Diamonds"
+            card1num=4
+            if card1=="5 of Spades"
+            card1num=5
+            if card1=="5 of Clubs"
+            card1num=5
+            if card1=="5 of Hearts"
+            card1num=5
+            if card1=="5 of Diamonds"
+            card1num=5
+            if card1=="6 of Spades"
+            card1num=6
+            if card1=="6 of Clubs"
+            card1num=6
+            if card1=="6 of Hearts"
+            card1num=6
+            if card1=="6 of Diamonds"
+            card1num=6
+            if card1=="7 of Spades"
+            card1num=7
+            if card1=="7 of Clubs"
+            card1num=7
+            if card1=="7 of Hearts"
+            card1num=7
+            if card1=="7 of Diamonds"
+            card1num=7
+            if card1=="8 of Spades"
+            card1num=8
+            if card1=="8 of Clubs"
+            card1num=8
+            if card1=="8 of Hearts"
+            card1num=8
+            if card1=="8 of Diamonds"
+            card1num=8
+            if card1=="9 of Spades"
+            card1num=9
+            if card1=="9 of Clubs"
+            card1num=9
+            if card1=="9 of Hearts"
+            card1num=9
+            if card1=="9 of Diamonds"
+            card1num=9
+            if card1=="10 of Spades"
+            card1num=10
+            if card1=="10 of Clubs"
+            card1num=10
+            if card1=="10 of Hearts"
+            card1num=10
+            if card1=="10 of Diamonds"
+            card1num=10
+            if card1=="Jack of Spades"
+            card1num=11
+            if card1=="Jack of Clubs"
+            card1num=11
+            if card1=="Jack of Hearts"
+            card1num=11
+            if card1=="Jack of Diamonds"
+            card1num=11
+            if card1=="Queen of Spades"
+            card1num=12
+            if card1=="Queen of Clubs"
+            card1num=12
+            if card1=="Queen of Hearts"
+            card1num=12
+            if card1=="Queen of Diamonds"
+            card1num=12
+            if card1=="King of Spades"
+            card1num=13
+            if card1=="King of Clubs"
+            card1num=13
+            if card1=="King of Hearts"
+            card1num=13
+            if card1=="King of Diamonds"
+            card1num=13
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            if card1=="Ace of Spades"
+            card1num=1
+            if card1=="Ace of Clubs"
+            card1num=1
+            if card1=="Ace of Hearts"
+            card1num=1
+            if card1=="Ace of Diamonds"
+            card1num=1
+            if card1=="2 of Spades"
+            card1num=2
+            if card1=="2 of Clubs"
+            card1num=2
+            if card1=="2 of Hearts"
+            card1num=2
+            if card1=="2 of Diamonds"
+            card1num=2
+            if card1=="3 of Spades"
+            card1num=3
+            if card1=="3 of Clubs"
+            card1num=3
+            if card1=="3 of Hearts"
+            card1num=3
+            if card1=="3 of Diamonds"
+            card1num=3
+            if card1=="4 of Spades"
+            card1num=4
+            if card1=="4 of Clubs"
+            card1num=4
+            if card1=="4 of Hearts"
+            card1num=4
+            if card1=="4 of Diamonds"
+            card1num=4
+            if card1=="5 of Spades"
+            card1num=5
+            if card1=="5 of Clubs"
+            card1num=5
+            if card1=="5 of Hearts"
+            card1num=5
+            if card1=="5 of Diamonds"
+            card1num=5
+            if card1=="6 of Spades"
+            card1num=6
+            if card1=="6 of Clubs"
+            card1num=6
+            if card1=="6 of Hearts"
+            card1num=6
+            if card1=="6 of Diamonds"
+            card1num=6
+            if card1=="7 of Spades"
+            card1num=7
+            if card1=="7 of Clubs"
+            card1num=7
+            if card1=="7 of Hearts"
+            card1num=7
+            if card1=="7 of Diamonds"
+            card1num=7
+            if card1=="8 of Spades"
+            card1num=8
+            if card1=="8 of Clubs"
+            card1num=8
+            if card1=="8 of Hearts"
+            card1num=8
+            if card1=="8 of Diamonds"
+            card1num=8
+            if card1=="9 of Spades"
+            card1num=9
+            if card1=="9 of Clubs"
+            card1num=9
+            if card1=="9 of Hearts"
+            card2num=9
+            if card2=="9 of Diamonds"
+            card2num=9
+            if card2=="10 of Spades"
+            card2num=10
+            if card2=="10 of Clubs"
+            card2num=10
+            if card2=="10 of Hearts"
+            card2num=10
+            if card2=="10 of Diamonds"
+            card2num=10
+            if card2=="Jack of Spades"
+            card2num=11
+            if card2=="Jack of Clubs"
+            card2num=11
+            if card2=="Jack of Hearts"
+            card2num=11
+            if card2=="Jack of Diamonds"
+            card2num=11
+            if card2=="Queen of Spades"
+            card2num=12
+            if card2=="Queen of Clubs"
+            card2num=12
+            if card2=="Queen of Hearts"
+            card2num=12
+            if card2=="Queen of Diamonds"
+            card2num=12
+            if card2um=="King of Spades"
+            card2num=13
+            if card2=="King of Clubs"
+            card2num=13
+            if card2=="King of Hearts"
+            card2num=13
+            if card2=="King of Diamonds"
+            card2num=13
+            
+            
+            
+            
+            
+            
+            
+    
+    
+    
+    
+    
